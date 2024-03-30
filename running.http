@@ -1,0 +1,27 @@
+
+###
+GET https://srisakthin356jnjscpxtwms.drops.nxtwave.tech/players/
+
+###
+POST https://srisakthin356jnjscpxtwms.drops.nxtwave.tech/players/
+Content-Type: application/json
+
+{
+  "playerName": "srisakthi",
+  "jerseyNumber": 93,
+  "role": "all rounder"
+}
+###
+GET https://srisakthin356jnjscpxtwms.drops.nxtwave.tech/players/15/
+####
+
+PUT https://srisakthin356jnjscpxtwms.drops.nxtwave.tech/players/15/
+Content-Type: application/json
+
+{
+  "playerName": "SriSakthi",
+  "jerseyNumber": 34,
+  "role": "All-Rounder"
+}
+####
+DELETE https://srisakthin356jnjscpxtwms.drops.nxtwave.tech/players/15/
